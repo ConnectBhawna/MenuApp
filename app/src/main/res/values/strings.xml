@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MenuApp</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="by_bhawna_chauhan">By Bhawna Chauhan</string>
+
+    <string name="let_s_get_started_text">Let\'s Get Started</string>
+    <string name="app_intro">A new way to manage Menu.Manage your all things using our Android Application MenuApp</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">xyz@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="sign_up_description_text">Hey please enter your details</string>
+    <string name="enter_your_name_email_id_and_password_to_register_with_us">Enter your email id and password, to register with us</string>
+    <string name="admin_or_user">Admin or User</string>
+</resources>
