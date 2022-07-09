@@ -7,7 +7,7 @@ import android.view.WindowManager
 import com.example.menuapp.R
 import kotlinx.android.synthetic.main.activity_intro_screen.*
 
-class IntroScreen : AppCompatActivity() {
+class IntroScreen : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intro_screen)

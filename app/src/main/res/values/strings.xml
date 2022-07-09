@@ -21,4 +21,6 @@
     <string name="sign_up_description_text">Hey please enter your details</string>
     <string name="enter_your_name_email_id_and_password_to_register_with_us">Enter your email id and password, to register with us</string>
     <string name="admin_or_user">Admin or User</string>
+    <string name="please_click_back_again_to_exit">yeah</string>
+    <string name="please_wait">Please wait.</string>
 </resources>

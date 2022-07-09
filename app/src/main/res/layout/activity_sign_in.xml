@@ -113,7 +113,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@+id/et_password"
+                android:id="@+id/et_password_sign_in"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
@@ -126,7 +126,7 @@
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <androidx.appcompat.widget.AppCompatEditText
-                android:id="@+id/et_email"
+                android:id="@+id/et_email_sign_in"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/email"
