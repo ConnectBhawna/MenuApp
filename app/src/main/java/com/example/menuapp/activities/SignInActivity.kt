@@ -55,7 +55,7 @@ class SignInActivity : BaseActivity() {
 
         if (validateForm(email, password)) {
             // Show the progress dialog.
-            showProgressDialog(resources.getString(R.string.please_wait))
+            showProgressDialog("please Wait")
 
             // Sign-In using FirebaseAuth
             FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)
@@ -69,7 +69,7 @@ class SignInActivity : BaseActivity() {
                             Toast.LENGTH_LONG
                         ).show()
 
-                        startActivity(Intent(this@SignInActivity, MainActivity::class.java))
+                        startActivity(Intent(this@SignInActivity, ChoiceScreen::class.java))
                     } else {
                         Toast.makeText(
                             this@SignInActivity,

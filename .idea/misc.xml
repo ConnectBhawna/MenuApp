@@ -5,11 +5,13 @@
       <map>
         <entry key="app/src/main/res/drawable/shape_button_rounded.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/white_border_shape_button_rounded.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_choice_screen.xml" value="0.30572916666666666" />
         <entry key="app/src/main/res/layout/activity_intro_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.15384615384615385" />
         <entry key="app/src/main/res/layout/activity_sign_up_screen.xml" value="0.1837837837837838" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
         <entry key="app/src/main/res/layout/content_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_progress.xml" value="0.1" />
       </map>
     </option>
   </component>
