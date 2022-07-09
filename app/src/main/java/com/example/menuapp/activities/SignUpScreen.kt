@@ -62,9 +62,8 @@ class SignUpScreen : BaseActivity() {
         val name: String = et_name.text.toString().trim { it <= ' ' }
         val email: String = et_email.text.toString().trim { it <= ' ' }
         val password: String = et_password.text.toString().trim { it <= ' ' }
-        val role: String = et_role_main.text.toString().trim { it <= ' ' }
 
-        if (validateForm(name, email, password,role)) {
+        if (validateForm(name, email, password)) {
             showProgressDialog(resources.getString(R.string.please_wait))
             FirebaseAuth.getInstance()
                 .createUserWithEmailAndPassword(email, password)
@@ -73,16 +72,10 @@ class SignUpScreen : BaseActivity() {
                     if (task.isSuccessful) {
                         val firebaseUser: FirebaseUser = task.result!!.user!!
                         val registeredEmail = firebaseUser.email!!
-                        /*
-                        work here baad mai
-                         */
-
-
-
                     } else {
                         Toast.makeText(
                             this,
-                            task.exception!!.message, Toast.LENGTH_SHORT
+                            "Registration failed ", Toast.LENGTH_SHORT
                         )
                             .show()
 
@@ -92,10 +85,12 @@ class SignUpScreen : BaseActivity() {
 
     }
 
+
+
     /**
      * A function to validate the entries of a new user.
      */
-    private fun validateForm(name: String, email: String, password: String, role: String): Boolean {
+    private fun validateForm(name: String, email: String, password: String): Boolean {
         return when {
             TextUtils.isEmpty(name) -> {
                 showErrorSnackBar("Please enter name.")
@@ -107,10 +102,6 @@ class SignUpScreen : BaseActivity() {
             }
             TextUtils.isEmpty(password) -> {
                 showErrorSnackBar("Please enter password.")
-                false
-            }
-            TextUtils.isEmpty(et_role_main.toString()) -> {
-                showErrorSnackBar("Please enter role(admin/mentee).")
                 false
             }
             else -> {

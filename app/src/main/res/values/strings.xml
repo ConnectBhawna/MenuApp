@@ -25,4 +25,5 @@
     <string name="please_wait">Please wait.</string>
     <string name="welcome_in_menuapp">Welcome in MenuApp</string>
     <string name="hey_have_a_great_day_are_you_the_admin_of_the_app">Hey, Have a great Day!! Are you the Admin of the App</string>
+    <string name="hey_admin_kindly_enter_the_password_of_the_admin_portal">Hey Admin!! Kindly Enter the Password of the Admin Portal</string>
 </resources>
